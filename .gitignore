@@ -124,3 +124,7 @@ mcp.json
 !frontend/src/lib/
 
 uv.lock
+-e 
+# Environment files
+*.env
+*.env.*
