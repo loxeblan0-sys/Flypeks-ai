@@ -1,0 +1,14 @@
+{
+  "name": "web-db-user-template",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm -w frontend dev & npm -w backend dev",
+    "build": "npm -w frontend build && npm -w backend build",
+    "start": "npm -w backend start"
+  }
+}
